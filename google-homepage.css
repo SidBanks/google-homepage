@@ -6,8 +6,35 @@ ul {
 
 li {
     display: inline;
+    
 }
 
 a {
     color: black;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-list {
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    background-color: rgba(0, 0, 0, .10);
+    line-height: 40px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
